@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+
+.nav ul{
+    list-style-type: none;
+} 
+
+.nav ul li{
+    display: inline;
+    margin: 10px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color:  rgb(220, 101, 26);
+}
+
+.nav ul li a:hover{
+    color: green;
+}
+
+.login a{
+    text-decoration: none;
+    color: white;
+}
+
+.login:hover{
+    color: white;
+    background-color: green;
+    box-shadow: 1px 1px 10px green;
+}
+
+.bdy{
+    margin-top: 40px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.admin{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+
+}
+
+.logout{
+    height: 40px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 3px 4px 10px black;
+    border: none;
+    background-color: green;
+
+}
+
+.logout a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.setting{
+    margin-right: 20px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 3px 4px 10px black;
+    border: none;
+    background-color:  rgb(220, 101, 26);
+}
+
+.setting a{
+    color: white;
+    text-decoration: none;
+
+}
+
+
+.students ,.Faculty ,.classes, .Attendance{
+    font-family: sans-serif;
+    padding-top: 15px;
+    padding-right: 36px;
+    padding-left: 36px;
+    padding-bottom: 36px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black ;
+    
+   
+}
+
+.buttons{
+    display: flex;
+    
+}
+
+
+
+.data_stu, .data_mstu, .data_fstu, .data_stf_fac, .data_stf, .data_fac, .data_crs, .data_acrs, .data_rcrs{
+box-shadow: 1px 1px 10px black;
+padding: 10px;
+border-radius: 10px ;
+margin-top: 20px;
+}
+
+
+
+.addstu, .delstu, .addfac, .delfac, .addcrs, .delcrs{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+    background-color: rgb(220, 101, 26);
+    color: white;
+    border: none;
+    padding: 10px;
+
+}
+
+.addstu:hover, .delstu:hover, .addfac:hover, .delfac:hover, .addcrs:hover, .delcrs:hover{
+    color: white;
+    background-color: green;
+    box-shadow: 1px 1px 10px green;
+}
+
+ .delstu a,.addstu a, .addfac a, .delfac a, .addcrs a, .delcrs a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    margin-top: 232px;
+    background-color:  rgb(220, 101, 26);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 55px;
+   
+}

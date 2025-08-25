@@ -3,34 +3,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin</title>
-    <link rel="stylesheet" href="/static/styles/admin.css">
+    <title>admim page</title>
+    <link rel="stylesheet" href="static/styles/admin.css">
 </head>
 <body>
-    <div class="cont">
-        <div class="countstudent">
-            <h4>Total Number of Students : </h4>
-
-            <button class="addstd">+ Add Student</button>
-
+<div class="header">
+    <div class="heading">
+        <div class="clg_logo">
+            <img src="static/logos/college.jpg" alt="Pace logo" style="margin-left: 10px; width: 70px; height: auto;">
         </div>
-        <div class="countteacher">
-            <h4>Total Number of Teaching Staff : </h4>
-            <h4>Total Number of Non-Teaching Staff : </h4>
-            <button class="addtech">+ Add Teaching Staff</button>
-
+        <div class="text">
+            <h3>Pace Institute of Technology & Sciences</h3>
         </div>
     </div>
 
-    <div class="cont1">
-        <div class="addstud">
+    <div class="nav"> 
+        <ul>
+            <li><a href="#">User Management</a></li>
+            <li><a href="#">User Management</a></li>
+            <li><a href="#">User Management</a></li>
+        </ul>
+    </div>
+</div>
+<div class="admin">
+    <div class="admin_block">
+        <h2>Administrator</h2>
+        <br>
+        <p>Name:</p>
+        <p>Employee Id: </p>
+    </div>
+    <div class="p_buttons">
+        <button class="setting">
+            <a href="#"> Profile Settings</a>
+        </button>
+        <button class="logout">
+            <a href="login.html">Logout</a>
+        </button>
+    </div>
+</div>
 
+<div class="bdy">
+    
+    <div class="students">
+        <h3>Student Management</h3>
+       
+        <div class="data_stu">
+            <p>Total Students : </p>
         </div>
-        <div class="addteacher">
-            
+        <div class="data_mstu">
+            <p>Male Students : </p>
         </div>
+        <div class="data_fstu">
+            <p>Female Students : </p>
+        </div>
+        
+        <div class="buttons">
+            <button class="addstu">
+                <a href="#">Add Student</a> 
+            </button>
 
+             <button class="delstu">
+                <a href="#">Delete Student</a> 
+            </button>
+        </div>
+      
+    </div>
+
+    <div class="Faculty">
+        <h3>Faculty  Management</h3>
+        
+        <div class="data_stf_fac">
+            <p>Total Staff & Faculty : </p>
+        </div>
+        <div class="data_stf">
+            <p>Number of Staff : </p>
+        </div>
+        <div class="data_fac">
+            <p>Number of Faculty : </p>
+        </div>
+        
+        <div class="buttons">
+            <button class="addfac">
+                <a href="#">Add Faculty</a> 
+            </button>
+
+             <button class="delfac">
+                <a href="#">Delete Faculty</a> 
+            </button>
+        </div>
 
     </div>
+
+    
+
+    <div class="classes">
+        <h3>Academic Management</h3>
+
+        <div class="data_crs">
+            <p>Total Courses : </p>
+        </div>
+        <div class="data_acrs">
+            <p>Avaliable courses : </p>
+        </div>
+        <div class="data_rcrs">
+            <p>Running Courses : </p>
+        </div>
+        
+        <div class="buttons">
+            <button class="addcrs">
+                <a href="#">Add Course</a> 
+            </button>
+
+             <button class="delcrs">
+                <a href="#">Delete Course</a> 
+            </button>
+        </div>
+
+    </div>
+
+        <div class="Attendance">
+        <h3>Attendance Management</h3>
+            <div class="data_stu">
+            <p>Students attended: </p>
+        </div>
+        <div class="data_mstu">
+            <p>Faculties attended : </p>
+        </div>
+        <div class="data_fstu">
+            <p>Staffs attended : </p>
+        </div>
+        
+        <div class="buttons">
+            <button class="addstu">
+                <a href="#">Add Working days</a> 
+            </button>
+
+             <button class="delstu">
+                <a href="#">Modify Working days</a> 
+            </button>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <div class="foot">
+        <p> copyright@ 2025 </p>
+    </div>
+</footer>
+
+    
 </body>
 </html>
